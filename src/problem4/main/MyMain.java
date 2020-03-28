@@ -17,9 +17,9 @@ public class MyMain {
         obj.insert(10);
         obj.insert(3);
         obj.insert(30);
-        obj.insert(37);
+        obj.insert(38);
         obj.insert(13);
-        obj.insert(1);
+        obj.insert(60);
         obj.insert(7);
 
         MyQueue mq = new MyQueue();
