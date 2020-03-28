@@ -36,4 +36,11 @@ public class MyPriorityQueue {
         }
     }
 
+    public void display(){
+        Node temp = head;
+        while(temp!=null){
+            System.out.println(temp.getName()+"\t"+temp.getRoll());
+            temp = temp.getNext();
+        }
+    }
 }
