@@ -16,6 +16,7 @@ public class MyMain {
         obj.insert(1);
         obj.insert(10);
         obj.insert(4);
+        obj.insert(8);
         obj.insert(6);
         System.out.println("ALL Left Nodes");
         obj.printLeftNode();
