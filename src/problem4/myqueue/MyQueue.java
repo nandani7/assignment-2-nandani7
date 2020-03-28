@@ -28,4 +28,24 @@ public class MyQueue {
             return next;
         }
     }
-}
+    Node front;
+    Node rear;
+
+    public MyQueue(){
+        front = null;
+        rear = null;
+    }
+
+    public void enqueue(int data){
+        Node ns = new Node();
+        ns.setData(data);
+        if(front==null){
+            front = ns;
+            rear = ns;
+        }
+        else{
+            rear.setNext(ns);
+            rear = ns;
+        }
+    }
+
