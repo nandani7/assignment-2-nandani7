@@ -83,4 +83,14 @@ public class MyBinarySearchTree {
         }
     }
 
+    public void preVSpost(){
+        postorder(root);
+        System.out.println();
+        preorder(root);
+    }
+
+    public TreeNode getroot(){
+        return root;
+    }
+
 }
